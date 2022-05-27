@@ -56,11 +56,11 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 section {
-  margin-top: 8rem; 
+  margin-top: 8rem;
   height: 100vh;
 }
 
@@ -117,7 +117,7 @@ img {
 }
 
 /*=========== MEDIA QUERIES (TABLETS) ===========*/
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -128,7 +128,7 @@ section {
 }
 
 /*=========== MEDIA QUERIES (MOBILE PHONES) ===========*/
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

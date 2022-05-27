@@ -17,6 +17,20 @@ header {
   justify-content: center;
 }
 
+.name {
+  cursor: default;
+}
+
+.name span {
+  transition: 1s ease-out;
+}
+
+.name:hover span {
+  
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
 /*==== SOCIALS ====*/
 .header__socials {
   display: flex;
@@ -26,12 +40,13 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+
 }
 
 .header__socials::after {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 2px;
+  height: 4rem;
   background: var(--color-primary);
 }
 
@@ -66,7 +81,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 /*=========== MEDIA QUERIES (TABLETS) ===========*/

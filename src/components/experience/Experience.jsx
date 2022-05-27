@@ -1,6 +1,17 @@
 import React from "react"
 import "./experience.css"
 import { BsPatchCheckFill } from "react-icons/bs"
+import { SiStrapi } from "react-icons/si"
+import { FaReact } from "react-icons/fa"
+import { SiNextdotjs } from "react-icons/si"
+import { AiOutlineHtml5 } from "react-icons/ai"
+import { DiCss3Full } from "react-icons/di"
+import { SiJavascript } from "react-icons/si"
+import { GrNode } from "react-icons/gr"
+import { SiTailwindcss } from "react-icons/si"
+import { BsGithub } from "react-icons/bs"
+import { SiSupabase } from "react-icons/si"
+import { FaFigma } from "react-icons/fa"
 
 const Experience = () => {
   return (
@@ -12,53 +23,97 @@ const Experience = () => {
           <h3>Frontend Develompent</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>HTML5</h4>
-              <small className="text-light">Experienced</small>
+              <AiOutlineHtml5  className="icon"/>
+              <div>
+                <h4>HTML5</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>CSS3</h4>
-              <small className="text-light">Intermediate</small>
+              <DiCss3Full className="icon" />
+              <div>
+                <h4>CSS3</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>JavaScript</h4>
-              <small className="text-light">Experienced</small>
+              <SiJavascript className="icon" />
+
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>React js</h4>
-              <small className="text-light">Experienced</small>
+              <FaReact className="icon"/>
+              <div>
+                <h4>React js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>NEXT Js</h4>
-              <small className="text-light">Experienced</small>
+              <SiNextdotjs className="icon"/>
+              <div>
+                <h4>NEXT Js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Tailwind CSS</h4>
-              <small className="text-light">Experienced</small>
+              <SiTailwindcss className="icon"/>
+              <div>
+                <h4>Tailwind CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
           {/*========= frontend END =========*/}
         </div>
         <div className="experinect__backend">
-        <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Node Js</h4>
-              <small className="text-light">Experienced</small>
+          <h3>Other features</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <GrNode className="icon"/>
+              <div>
+                <h4>Node Js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Strapi</h4>
-              <small className="text-light">Experienced</small>
+              <SiStrapi className="icon"/>
+              <div>
+                <h4>Strapi</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Sanity</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon"/>
+              <div>
+                <h4>Sanity</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Github</h4>
-              <small className="text-light">Experienced</small>
+              <BsGithub className="icon"/>
+              <div>
+                <h4>Github</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill /> <h4>Supabase</h4>
-              <small className="text-light">Experienced</small>
+              <SiSupabase className="icon"/>
+              <div>
+                <h4>Supabase</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
+            <article className="experience__details">
+              <FaFigma className="icon" />
+              <div>
+                <h4>Figma</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>

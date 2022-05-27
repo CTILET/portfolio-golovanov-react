@@ -1,0 +1,33 @@
+.porfolio__container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2.5rem;
+}
+
+.porfolio__item {
+   background-color: var(--color-bg-variant);
+   padding: 1.3rem;
+   border-radius: 2rem;
+   border: 1px solid transparent;
+   transition: var(--transition);
+}
+
+.porfolio__item:hover {
+   border-color:var(--color-primary-variant);
+   background-color: transparent;
+}
+
+.porfolio__item-image {
+   border-radius: 1.5rem;
+   overflow: hidden;
+}
+
+.porfolio__item h3 {
+   margin: 1.2rem 0 2rem;
+}
+
+.porfolio__item-cta {
+   display:flex;
+   gap: 1rem;
+   margin-bottom: 1rem;
+}

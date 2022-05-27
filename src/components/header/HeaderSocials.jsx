@@ -6,17 +6,17 @@ import { BsDribbble } from "react-icons/bs"
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://github.com/CTILET" target="_blank">
-        <BsGithub />
+      <a href="https://github.com/CTILET" target="_blank ">
+        <BsGithub  size={24}/>
       </a>
-      <a href="https://t.me/GolovanovRV" target="_blank">
-        <BsTelegram />
+      <a href="https://t.me/GolovanovRV"  target="_blank ">
+        <BsTelegram  size={24}/>
       </a>
       <a
         href="https://dribbble.com/shots/17797981-Web-Messenger-Concept/attachments/12967798?mode=media"
-        target="_blank"
+        target="_blank "
       >
-        <BsDribbble />
+        <BsDribbble  size={24}/>
       </a>
     </div>
   )
