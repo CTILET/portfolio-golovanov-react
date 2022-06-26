@@ -77,14 +77,26 @@
   margin-bottom: 0.8rem;
 }
 
+.service__list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .icon {
   color: var(--color-primary);
   margin-top: 2px;
 }
 
 .service__list p {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
+.service__list span {
+  font-weight: bold;
+}
+
 
 @media screen and (max-width: 1024px) {
   .services__container {

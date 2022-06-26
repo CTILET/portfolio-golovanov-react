@@ -15,25 +15,28 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Visual Design</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Branding</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Layout</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Usability Testing</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>User Research</p>
             </li>
-            
+            <li>
+              <BiCheckDouble className="icon" />
+              <p>User Stories</p>
+            </li>
           </ul>
         </article>
         {/* UI/UX design end */}
@@ -45,27 +48,52 @@ const Services = () => {
             <ul className="service__list">
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  {" "}
+                  <span>API </span>- Application programming interface
+                </p>
               </li>
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  <span>BEM</span> - Block element modifier
+                </p>
               </li>
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  <span>CDN </span> - Content delivery network
+                </p>
               </li>
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  <span> CMS</span> - Content management system
+                </p>
               </li>
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  <span>DOM</span> - Document object model
+                </p>
               </li>
               <li>
                 <BiCheckDouble className="icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>
+                  <span>CTA</span> - Call to action.
+                </p>
+              </li>
+              <li>
+                <BiCheckDouble className="icon" />
+                <p>
+                  <span>JSON </span> - JavaScript Object Notation.
+                </p>
+              </li>
+              <li>
+                <BiCheckDouble className="icon" />
+                <p>
+                  <span>OOP</span> - oriented programing.
+                </p>
               </li>
             </ul>
           </div>
@@ -73,30 +101,33 @@ const Services = () => {
         {/* Web development end  */}
         <article className="service serviceSEO">
           <div className="service__head">
-            <h3>Content creation</h3>
+            <h3>SEO optimisation</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Keyword research</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Content marketing</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Link building</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>On-page optimization</p>
             </li>
             <li>
               <BiCheckDouble className="icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Site architecture optimization</p>
             </li>
-            
+            <li>
+              <BiCheckDouble className="icon" />
+              <p>Semantic markup</p>
+            </li>
           </ul>
         </article>
         {/* SEO optimisation end  */}
