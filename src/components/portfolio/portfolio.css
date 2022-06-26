@@ -30,12 +30,7 @@
   overflow: hidden;
   width: 37rem;
   height: 25rem;
-  
   cursor: pointer;
-}
-
-.image {
-  object-fit: contain;
 }
 
 .porfolio__item h3 {
@@ -48,21 +43,46 @@
   margin-bottom: 1rem;
 }
 
-
 /*=========== MEDIA QUERIES (TABLETS) ===========*/
 @media screen and (max-width: 1024px) {
   .porfolio__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .porfolio__item {
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .porfolio__item-image {
+    width: 17rem;
+    height: 15rem;
+    cursor: pointer;
   }
 }
-
 
 /*=========== MEDIA QUERIES (MOBILE PHONES) ===========*/
 @media screen and (max-width: 600px) {
   .porfolio__container {
-    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     gap: 0.2rem;
   }
-}
 
+  .porfolio__item {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .porfolio__item-image {
+    width: 15rem;
+    height: 13rem;
+    cursor: pointer;
+  }
+}

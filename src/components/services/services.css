@@ -91,7 +91,7 @@
 }
 
 .service__list p {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 .service__list span {
   font-weight: bold;
@@ -115,4 +115,20 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+
+  .service__list {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__list li {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
 }
