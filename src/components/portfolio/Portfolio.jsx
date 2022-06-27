@@ -3,7 +3,7 @@ import "./portfolio.css"
 import img1 from "../../assets/Antools.png"
 import img2 from "../../assets/Quo.jpg"
 import img3 from "../../assets/phantom.png"
-import img4 from "../../assets/messanger.webp"
+import img4 from "../../assets/telegram.png"
 import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui"
 import "@fancyapps/ui/dist/fancybox.css"
 
@@ -27,7 +27,7 @@ const data = [
     image: img3,
     title: "Phantom - A friendly crypto wallet",
     github: "https://github.com/ramziddin/phantom-strapi",
-    demo: "https://phantom.app/",
+    demo: "https://phantom-landing.vercel.app/",
   },
   {
     id: 4,

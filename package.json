@@ -1,5 +1,6 @@
 {
   "name": "porfolio-golovanov",
+  "homepage": "http://golovanov.uz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
