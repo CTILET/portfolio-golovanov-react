@@ -56,22 +56,32 @@
   background: transparent;
   border: 2px solid var(--color-bg-variant);
   resize: none;
-  color: var(--color-white)
+  color: var(--color-white);
 }
-
 
 /*=========== MEDIA QUERIES (TABLETS) ===========*/
 @media screen and (max-width: 1024px) {
   .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contact__option {
+    margin: 0 auto;
+    width: 90%;
+  }
 
-   grid-template-columns:1fr;
-   gap: 2rem;
+  .forma {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .forma button {
+    width: 100%;
   }
 }
- /*=========== MEDIA QUERIES (MOBILE PHONES) ===========*/
- @media screen and (max-width: 600px) {
-   .container.contact__container {
-      width: var(--cntaoner-width-sm);
-   }
+/*=========== MEDIA QUERIES (MOBILE PHONES) ===========*/
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--cntaoner-width-sm);
+  }
 }
-  

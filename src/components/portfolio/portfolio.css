@@ -58,8 +58,13 @@
     margin: 0 auto;
   }
 
+  .porfolio__item h3 {
+    margin: 0.8rem;
+    text-align: center;
+  }
+
   .porfolio__item-image {
-    width: 17rem;
+    width: 100%;
     height: 15rem;
     cursor: pointer;
   }
@@ -71,17 +76,24 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.6rem;
   }
 
   .porfolio__item {
     width: 80%;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 0 auto;
+  }
+  .porfolio__item-cta {
+    margin-bottom: 0.4rem;
+  }
+
+  .porfolio__item h3 {
+    margin: 0.5rem;
+    text-align: center;
   }
 
   .porfolio__item-image {
-    width: 15rem;
     height: 13rem;
     cursor: pointer;
   }
